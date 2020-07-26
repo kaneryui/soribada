@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@font-face { font-family: 'GmarketSansLight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'GmarketSansMedium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'GmarketSansBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+ .nanumsquare { font-family: 'NanumSquare', sans-serif !important; }
+
+body{
+    min-width:1200px;
+    font-family:'NotoSans';
+    font-weight:300;
+}
+a{
+    color:#696969;
+}
+body,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+
+ul{
+    padding:0;
+    margin:0;
+    list-style:none; 
+}
+
+a{
+    text-decoration:none;
+    
+}
+
+.inner{
+    width:1200px;
+    margin:0 auto;
+}
+
+.cf::after{
+    content:"";
+    display:block;
+    clear:both;
+}

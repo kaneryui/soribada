@@ -1,0 +1,500 @@
+@charset "utf-8";
+
+#container{
+    background:url(../images/container_bg.png) no-repeat center center;
+    background-size:cover;
+}
+#container .con_wrap{
+    width:1250px;
+    margin: 0 auto;
+    background:rgba(255,255,255,0.5);      
+    
+}
+
+/***컨텐츠01***/
+
+/*인기차트*/
+
+.con01{
+    padding-top:40px;
+}
+.con01_left{
+    float: left;
+    position:relative;
+    width:590px;
+    height:535px;
+    margin-right:20px;
+}
+
+
+.con01_left .con_tit{
+    
+    font-family: 'GmarketSansMedium';
+    position:relative;
+    margin-bottom: 1px;
+    
+}
+.con01_left .con_tit h1{
+    font-size:23px;
+    font-weight: 400;
+    padding-bottom:8px;    
+}
+.con01_left .con_tit img{}
+
+.con01 .more_btn{
+    position:absolute;
+    right:0;
+    bottom:0;
+    
+}
+.con01 .rank{
+    width:590px;
+    font-family:'GmarketSansLight';
+    font-size:15px;
+    font-weight: 600;
+}
+
+.rank{}
+.rank li{
+    font-family: 'GmarketSanslight';
+    font-size:20px;
+    line-height:40px;
+    border-bottom:1px solid #333;
+    font-size:14px;
+}
+.rank li img{
+    margin-right:5px;
+}
+
+.chart_btn{
+    position:absolute;
+    top:5px;
+    right:0;
+}
+.chart_btn span{
+    padding-left:20px;
+}
+.chart_btn span img{}
+
+.rank li{
+    position:relative;
+    height:40px;
+}
+
+.rank_list:hover{
+    background:rgba(195,195,195,0.1);
+    height:80px;
+}
+.rank_list:hover .rank_num{
+    font-size:20px;
+}
+.rank_list:hover .fluc{
+    line-height:80px;
+}
+.pado_img{}
+.rank_list:hover .pado_img{
+    top:25px;
+}
+
+
+.rank span{
+    text-align: center;
+}
+
+
+.rank_list .rank_num{
+    display:inline-block;
+    width:25px;
+    font-style: italic;
+}
+.rank_list .fluc{
+    vertical-align:middle;
+    font-size:11px;
+    width:30px;
+    display:inline-block;
+}
+.rank_list .pado_img{
+    position:absolute;
+    right:0;
+    top:5px;
+}
+.rank .song_tit{
+    vertical-align:middle;
+    width:300px;
+    display:inline-block;
+    text-align:left;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;    
+    
+}
+.rank .song_tit a{}
+
+.rank_list .singer_name{
+    vertical-align:middle;
+    display: inline-block;
+    width:100px;
+    text-align:left;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight:100;
+    
+}
+.singer_name a{
+    color:#9d9d9d;
+}
+ 
+/*인기앨범*/
+
+.con01_right{
+    display: inline-block;
+    width:590px;
+    height:500px;
+}
+
+.con_tit{
+    font-family:'GmarketSansMedium';
+    position:relative;    
+    border-bottom:1px solid #333;
+    height:50px;
+    line-height:50px;
+    margin-bottom: 20px;
+    
+}
+.con_tit h1{
+    font-size:23px;
+    font-weight: 400;
+    padding-bottom:8px;
+    
+    
+    
+}
+.con_tit img{
+    vertical-align: middle;
+}
+.con_tit p{
+    position:absolute;
+    top:8px;
+    right:0;
+}
+
+.com01_r_box01{
+    text-align:center;
+}
+/*인기앨범*/
+
+.slick-list{
+    width:580px;
+}
+.slick-slider {
+    width:550px;
+    margin:0 auto;
+}
+
+.slick-slide img{
+    position:relative;
+}
+.slick-dots{
+    text-align: center;   
+    padding-top:10px;
+}
+.slick-dots li{
+    display:inline-block;
+    width:20px;
+    background:url(../images/btn_sli_02.png) no-repeat;
+}
+.slick-dots button{
+    border:0;
+    padding:0;
+    background:none;
+    text-indent:-9999px;
+}
+.slick-dots .slick-active{
+    background:url(../images/btn_sli_01.png) no-repeat;
+}
+//
+.h_album01{
+    width:580px;
+}
+.h_album01 li{}
+.h_album01 li a{
+    display:block;
+}
+.h_album01 p{
+    width:260px;
+    height:40px;
+    line-height:40px;
+    background:rgba(0,0,0,0.3);    
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin:0 auto;
+    color:#fff;
+    font-family: 'GmarketSansBold';
+    transition:all 0.5s;
+}
+.h_album01 .on span{
+    display:none;
+}
+.h_album01 li a:hover .on span{
+    display:block;
+    
+}
+.h_album01 li a:hover .off span{
+    display:none;
+}
+.h_album01 li a:hover p{
+    height:100%;
+    line-height:260px;
+    font-size:20px;
+    font-weight:bold;    
+    color:#fff;
+    text-shadow:0 0 10px #fff;
+}
+
+.h_album div:hover p{
+    height:100%;
+    font-size:25px;
+    font-weight:500;
+    padding-top:100px;
+    box-sizing: border-box;
+    font-family:'GmarketSansBold';
+}
+
+/*이벤트*/
+.event{
+    margin-left:20px;
+    width:570px;
+}
+.event p{
+    font-size:20px;
+    color:#666;
+    text-align:left;
+}
+.event img{
+    width:100%;
+}
+
+/***메인콘텐츠02***/
+
+/*최신앨범*/
+
+.main_con02{
+    margin-top:50px;
+}
+.tit_more{
+    font-size:14px;
+    float: right;
+    font-weight:200;
+}
+.tit_more a{}
+.tit_more a span{
+    margin:0 5px;
+}
+.tit_more a:hover{
+    color:#87b0d3;
+}
+
+/*앨범리스트*/
+
+.con02_album{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+
+.con02_more{
+    position:absolute;
+    right:0;
+    top:50px;
+}
+.con02_album .box_btn{
+    margin-top:20px;    
+}
+.n_album{}
+.n_album li{
+    float:left;
+    position:relative;
+    margin: 10px;
+}
+.n_album{
+    padding:30px;
+}
+.n_album p{
+    width:260px;
+    height:40px;
+    line-height:40px;
+    background:rgba(0,0,0,0.3);    
+    text-align: center;
+    position: absolute;
+    bottom:5px;
+    margin:0 auto;
+    color:#fff;
+    font-family: 'GmarketSansBold';
+    transition:all 0.5s;
+}
+
+.n_album .on span{
+    display:none;
+}
+.n_album li a:hover .on span{
+    display:block;
+    
+}
+.n_album li a:hover .off span{
+    display:none;
+}
+.n_album li a:hover p{
+    height:100%;
+    line-height:260px;
+    font-size:20px;
+    font-weight:bold;    
+    color:#fff;
+    text-shadow:0 0 10px #fff;
+}
+
+
+/**메인컨텐츠03 추천음악**/
+
+.main_con03{
+}
+.con03_box01{
+    font-family: 'GmarketSansLight';
+    width:590px;
+    margin-left:20px;
+    float: left;
+    
+}
+.con03_box01:last-child{
+    margin-left: 0;
+}
+.main_con03>ul>li{}
+.main_con03 .tit{
+    font-family: 'GmarketSansMedium';
+    color:#656565;
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.main_con03 .tit p{}
+.main_con03 .tit span{
+    font-size:14px;
+    font-family: 'GmarketSansLight';
+}
+.main_con03 .con03_img{
+    margin-bottom:20px;
+}
+.con03_img img{
+    margin-right:15px;
+}
+.main_con03 .list{
+    display:inline-block;
+    position:absolute;
+}
+.list img{
+    vertical-align:middle;
+    margin-right:0;
+}
+.list span{
+    vertical-align:middle;
+}
+.main_con03 .list{
+    font-size:12px;
+    line-height:30px;
+}
+.main_con03 .list .list_tit{
+    font-family: 'GmarketSansMedium';
+    font-size:15px;
+    color:#87b0d3;
+}
+.main_con03 .list li{
+    width:450px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;   
+}
+
+.main_con03 .list li:hover span{
+    font-weight: 600;
+    color:#333;
+}
+
+
+/**광고배너**/
+
+.event_banner{
+    margin:100px 0;
+    text-align:center;    
+    border:2px solid #ccc;
+}
+
+.banner_box{
+    display: inline-block;
+    padding:10px;
+}
+.banner_box li{
+    float:left;
+    width:200px;
+    margin-right:80px;
+}
+.banner_box img{
+    width:100%;
+}
+.banner_box li:last-child{
+    margin-right: 0;
+}
+
+/**뮤직비디오**/
+
+.main_con04{}
+
+.video_list{
+    text-align:center;
+    padding:50px;
+    display: inline-block;
+}
+.video_list li{    
+    display:inline-block;
+    margin-right:40px;
+    position:relative;
+}
+.video_list li:last-child{
+    margin:0;
+}
+.video_list li a{}
+.video_list li a img{
+    
+}
+.video_list .arrow{
+    position:absolute;
+    left:50%;
+    margin-left:-22px;
+    top:40px;
+}
+
+.tit_name{
+    text-align:center;
+    font-size:15px;
+    
+}
+.tit_name .name{
+    
+    width:150px;
+    display: inline-block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    
+}
+
+.tit_name a{    
+    color:#9d9d9d;
+}
+.tit_name a .tit{}
+.tit_name a .name{}
+
+.video_list .box_btn{
+    padding:20px 0;
+    margin-right: 0;
+}
