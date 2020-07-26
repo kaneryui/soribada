@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>소리바다</title>
+        <link rel="icon" sizes="16x16 32x32" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <link rel="stylesheet" type="text/css" href="css/include.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="font/fonts.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+    <!--전체시작-->
+        <div id="wrap">
+            <!--헤더-->
+            <header id="header">
+                <!--퀵버튼-->
+                <div class="util">
+                    <!--왼쪽버튼-->
+                    <ul class="left_util">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                    <!--왼쪽버튼-->
+                    <!--오른쪽버튼-->
+                    <ul class="right_util">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">이용권</a></li>
+                    </ul>
+                    <!--오른쪽버튼-->
+                </div>
+                <!--퀵버튼-->
+                <!--로고-->
+                <div class="h_logo">
+                    <a href="#"><img src="images/logo.png" alt="로고"></a>                    
+                </div>
+                <!--로고-->
+                <!--검색-->
+                <div class="search inner cf">
+                   <input type="text" placeholder="검색어를 입력해주세요.">
+                   <button><img src="images/icon_search.png" alt="돋보기"></button>
+                    <!--검색순위-->
+                    <div class="search_langking">
+                        <ul class="langking_list">
+                        <li>
+                            <span class="la_num">1</span> <span class="lang_name"><a href="#">이찬원</a></span> <span class="ud_ico_num"><img src="images/ico_=.png" alt="변동없음아이콘"></span> 
+                        </li>
+                        <li>
+                            <span class="la_num">2</span> <span class="lang_name"><a href="#">김호중</a></span> <span class="ud_ico_num"><img src="images/ico_up.png" alt="up아이콘"></span> 1
+                        </li>
+                            <li>
+                            <span class="la_num">3</span> <span class="lang_name"><a href="#">임영웅</a></span> <span class="ud_ico_num"><img src="images/ico_down.png" alt="down아이콘"></span> 3
+                        </li>
+                            <li>
+                            <span class="la_num">4</span> <span class="lang_name"><a href="#">영탁</a></span> <span class="ud_ico_num"><img src="images/ico_down.png" alt="down아이콘"></span> 3
+                        </li>
+                            <li>
+                            <span class="la_num">5</span> <span class="lang_name"><a href="#">사모</a></span> <span class="ud_ico_num"><img src="images/ico_up.png" alt="up아이콘"></span> 1
+                        </li>
+                            <li>
+                            <span class="la_num">6</span> <span class="lang_name"><a href="#">여자친구(GFRIEND)</a></span> <span class="ud_ico_num"><img src="images/ico_up.png" alt="up아이콘"></span> 2
+                        </li>
+                            <li>
+                            <span class="la_num">7</span> <span class="lang_name"><a href="#">나보다 더 사랑해요</a></span> <span class="ud_ico_num"><img src="images/ico_up.png" alt="up아이콘"></span> 1
+                        </li>
+                            <li>
+                            <span class="la_num">8</span> <span class="lang_name"><a href="#">Red Velvet(레드벨벳)</a></span> <span class="ud_ico_num"><img src="images/ico_up.png" alt="up아이콘"></span> 1
+                        </li>
+                            <li>
+                            <span class="la_num">9</span> <span class="lang_name"><a href="#">브라운 아이드 걸스</a></span> <span class="ud_ico_num"><img src="images/ico_=.png" alt="변동없음아이콘"></span>
+                        </li>
+                            <li>
+                            <span class="la_num">10</span> <span class="lang_name"><a href="#">블락비(Block B)</a></span> <span class="ud_ico_num"><img src="images/ico_=.png" alt="변동없음아이콘"></span>
+                        </li>
+                    </ul>    
+                    </div>
+                    <!--검색순위-->
+                </div>
+                <!--검색-->
+                <!--gnb-->
+                <ul class="gnb">
+                    <li>
+                        <a href="#">신곡</a>
+                        <!--lnb-->
+                        <ul class="lnb">
+                            <li><a href="#">최신곡</a></li>
+                            <li><a href="#">최신앨범</a></li>
+                            <li><a href="#">최신뮤직비디오</a></li>
+                        </ul>
+                        <!--lnb-->
+                    </li>
+                    <li>
+                        <a href="#">차트</a>
+                        <!--lnb-->
+                        <ul class="lnb">
+                            <li><a href="#">인기차트</a></li>
+                            <li><a href="#">앨범차트</a></li>
+                            <li><a href="#">장르차트</a></li>
+                            <li><a href="#">뮤직비디오차트</a></li>
+                        </ul>
+                        <!--lnb-->
+                    </li>
+                    <li>
+                        <a href="#">마이뮤직</a>
+                        <!--lnb-->
+                        <ul class="lnb">
+                            <li><a href="#">좋아요</a></li>
+                            <li><a href="#">최근 들은 곡</a></li>
+                            <li><a href="#">많이 들은 곡</a></li>
+                            <li><a href="#">내 플레이리스트</a></li>
+                        </ul>
+                        <!--lnb-->
+                    </li>
+                    <li>
+                        <a href="#">내 정보</a>
+                        <!--lnb-->
+                        <ul class="lnb">
+                            <li><a href="#">이용권</a></li>
+                            <li><a href="#">회원 정보</a></li>
+                            <li><a href="#">친구 목록</a></li>
+                            <li><a href="#">구매 목록</a></li>
+                        </ul>
+                        <!--lnb-->
+                    </li>
+                </ul>
+                <!--gnb-->
+            </header>    
+            <!--헤더-->
+            
+            <!--컨테이너-->
+            <div id="container">
+               <div class="con_wrap">
+                <!--컨텐츠01(인기차트,인기앨범)-->
+                <div class="con01 inner cf">
+                    <!--인기차트-->
+                    <div class="con01_left">
+                       <!--타이틀-->
+                        <div class="con_tit">
+                            <h1><img src="images/ico_01.png" alt="인기차트"> <span>인기차트</span></h1>
+                            <div class="chart_btn"><span><a href="#"><img src="images/ico_play_list.png" alt="플레이리스트아이콘"></a></span> <span><a href="#"><img src="images/ico_save.png" alt="저장아이콘"></a></span></div>
+                        </div>
+                        <!--타이틀-->
+                    <!--순위리스트-->    
+                    <ul class="rank">
+                        <li class="rank_list">
+                            <span class="rank_num">1</span>
+                            <span class="fluc"><img src="images/ico_=.png" alt="변동없음"></span>
+                            <span class="song_tit"><a href="#">아로하</a></span>
+                            <span class="singer_name"><a href="#">조정석</a></span>
+                                <div class="pado_img">
+                                <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">2</span>
+                            <span class="fluc"><img src="images/ico_=.png" alt="변동없음"></span>
+                            <span class="song_tit"><a href="#">시작</a></span>
+                            <span class="singer_name"><a href="#">가호 (Gaho)</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">3</span>
+                            <span class="fluc"><img src="images/ico_=.png" alt="변동없음"></span>
+                            <span class="song_tit"><a href="#">처음처럼</a></span>
+                            <span class="singer_name"><a href="#">엠씨 더 맥스 (MC THE MAX)</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">4</span>
+                            <span class="fluc"><img src="images/ico_=.png" alt="변동없음"></span>
+                            <span class="song_tit"><a href="#">Rememver</a></span>
+                            <span class="singer_name"><a href="#">WINNER</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">5</span>
+                            <span class="fluc"><img src="images/ico_up.png" alt="상승">1</span>
+                            <span class="song_tit"><a href="#">Oh my god</a></span>
+                            <span class="singer_name"><a href="#">(여자)아이들</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">6</span>
+                            <span class="fluc"><img src="images/ico_down.png" alt="하락">1</span>
+                            <span class="song_tit"><a href="#">아무노래</a></span>
+                            <span class="singer_name"><a href="#">지코 (ZICO)</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">7</span>
+                            <span class="fluc"><img src="images/ico_up.png" alt="상승">1</span>
+                            <span class="song_tit"><a href="#">WANNABE</a></span>
+                            <span class="singer_name"><a href="#">ITZY (있지)</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">8</span>
+                            <span class="fluc"><img src="images/ico_down.png" alt="하락">1</span>
+                            <span class="song_tit"><a href="#">흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야</a></span>
+                            <span class="singer_name"><a href="#">장범준</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">9</span>
+                            <span class="fluc"><img src="images/ico_=.png" alt="변동없음"></span>
+                            <span class="song_tit"><a href="#">돌덩이</a></span>
+                            <span class="singer_name"><a href="#">하현우 (국가스텐)</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                        <li class="rank_list">
+                            <span class="rank_num">10</span>
+                            <span class="fluc"><img src="images/ico_up.png" alt="상승">3</span>
+                            <span class="song_tit"><a href="#">봄 같던 그녀가 춥대 (Feat. 페노메코)</a></span>
+                            <span class="singer_name"><a href="#">MC몽 &amp; 김재환</a></span>
+                                <div class="pado_img">
+                                    <span><a href="#"><img src="images/pado_ico_01.png" alt="파도"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_02.png" alt="파일추가"></a></span>
+                                    <span><a href="#"><img src="images/pado_ico_03.png" alt="저장하기"></a></span>
+                                </div>
+                        </li>
+                    </ul>
+                    <p class="more_btn"><a href="#"><img src="images/ico_more.png" alt="더보기버튼"></a></p>
+                    <!--순위리스트-->    
+                <!--인기차트-->
+                </div>
+                <!--인기앨범-->
+                <div class="con01_right">
+                    <!--타이틀-->
+                    <div class="con_tit">
+                        <h1><img src="images/ico_03.png" alt="인기앨범"> <span>인기앨범</span></h1>
+                        <p><a href="#"><img src="images/ico_more.png" alt="더보기버튼"></a></p>
+                    </div>
+                    <!--타이틀-->
+                    <!--내용-->
+                      <ul class="h_album01">
+                            <li>
+                              <a href="#"><img src="images/hot_alb01.png" alt="이미지1"><p class="off"><span>MCND</span></p><p class="on"><span>into the ICE AGE</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/hot_alb02.png" alt="이미지2"><p class="off"><span>WINNER</span></p><p class="on"><span>REMEMBER</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/new_alb_07.png" alt="이미지3"><p class="off"><span>Baeksik</span></p><p class="on"><span>work</span></p></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/new_alb_08-29.png" alt="이미지4"><p class="off"><span>하진</span></p><p class="on"><span>Daydream</span></p></a>
+                            </li>
+                        </ul>
+                        <div class="event"><p>SORI event</p>
+                            <a href="#"><img src="images/event_banner01.png" alt="이벤트배너"></a>
+                        </div>
+                    <!--내용-->
+                </div>
+                <!--인기앨범-->
+                </div>
+                <!--컨텐츠01(인기차트,hot앨범)-->
+                
+                <!--컨텐츠02(최신앨범)-->
+                <div class="main_con02 inner">
+                    <!--타이틀-->
+                    <div class="con_tit cf">
+                        <h1><img src="images/ico_02.png" alt="최신앨범"> <span>최신앨범</span>
+                           <!--전체,국내,해외-->
+                            <div class="tit_more">
+                                <a href="#"><span>전체</span></a>
+                                <a href="#"><span>국내</span></a>
+                                <a href="#"><span>해외</span></a>
+                            </div>
+                           <!--전체,국내,해외-->
+                        </h1>
+                        <div class="con02_more"><a href="#"><img src="images/ico_more.png" alt="더보기"></a></div>
+                    </div>
+                    <!--타이틀-->
+                    <!--앨범리스트-->
+                    <div class="con02_album">
+                        <ul class="n_album cf">
+                           <li>
+                              <a href="#"><img src="images/new_alb_01.png" alt="이미지1"><p class="off"><span>Alisha &#40;알리샤&#41;</span></p><p class="on"><span>Used To</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/new_alb_02.png" alt="이미지1"><p class="off"><span>Dept &#40;뎁트&#41;</span></p><p class="on"><span>비가 올때마다</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/new_alb_03.png" alt="이미지1"><p class="off"><span>차콜 &#40;Charcoal&#41;</span></p><p class="on"><span>Just for you</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/new_alb_04.png" alt="이미지1"><p class="off"><span>하선호 &#40;Sandy&#41;;</span></p><p class="on"><span>One &amp; Only</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/new_alb_05.png" alt="이미지1"><p class="off"><span>UNFAIR</span></p><p class="on"><span>ROSE</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/new_alb_06.png" alt="이미지1"><p class="off"><span>마이크스웨거 &#40;MIC SWG&#41;</span></p><p class="on"><span>MIC SWG CEO '곧'</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/new_alb_07.png" alt="이미지1"><p class="off"><span>Baeksik</span></p><p class="on"><span>work</span></p></a>
+                            </li>
+                            <li>
+                              <a href="#"><img src="images/new_alb_08-29.png" alt="이미지1"><p class="off"><span>하진</span></p><p class="on"><span>Daydream</span></p></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--앨범리스트-->
+                </div>
+                <!--컨텐츠02(최신앨범)-->
+                
+                <!--컨텐츠03(추천음악)-->
+                <div class="main_con03 inner cf">
+                    <!--타이틀-->
+                    <div class="con_tit">
+                        <h1><img src="images/ico_04.png" alt="추천음악"> <span>추천음악</span></h1>
+                        <p><a href="#"><img src="images/ico_more.png" alt="더보기버튼"></a></p>
+                    </div>
+                    <!--타이틀-->
+                    <!--맞춤음악-->
+                    <div class="con03_box01">
+                        <div class="tit"><p>맞춤음악<span>최근에 들은 음악과 유사한 곡들</span></p></div>
+                        <!--왼쪽박스1번-->
+                        <ul class="con03_img">
+                            <li><a href="#"><img src="images/thu_01.png" alt=" 맞춤01"></a>
+                                <!--박스리스트-->
+                                <ul class="list">
+                                    <li class="list_tit">봄날의 설레임을 듣다</li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>봄끝</span></a></li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>My Blossom</span></a></li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>I Wanna Be Loved</span></a></li>
+                                </ul>
+                                <!--박스리스트-->
+                            </li>
+                        </ul>
+                        <!--왼쪽박스1번-->
+                        
+                        <!--왼쪽박스2번-->
+                        <ul class="con03_img">
+                            <li>
+                                <a href="#"><img src="images/thu_02.png" alt="맞춤02"></a>
+                                <!--박스리스트-->
+                                <ul class="list">
+                                    <li class="list_tit">꿀 성대 남성 보컬의 감성자극</li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>Beautiful Tomorrow</span></a></li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>이 소설의 끝을 다시 써보려 해</span></a></li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>너였다면</span></a></li>
+                                </ul>
+                                <!--박스리스트-->
+                            </li>
+                        </ul>
+                        <!--왼쪽박스2번-->
+                    </div>
+                    <!--맞춤음악-->
+                    <!--추천DJ-->
+                    <div class="con03_box01">
+                        <div class="tit">
+                            <p>&#35;추천DJ <span>많은 사람들이 선택한 인기DJ</span></p>
+                        </div>
+                        <!--오른쪽박스1번-->
+                        <ul class="con03_img">
+                            <li><a href="#"><img src="images/thu_03.png" alt=" 맞춤03"></a>
+                                <!--박스리스트-->
+                                <ul class="list">
+                                    <li class="list_tit">날도 좋은데 흥 좀 내볼까</li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>달리 (Dally) (Feat. GRAY)</span></a></li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>Look</span></a></li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>Super Duper</span></a></li>
+                                </ul>
+                                <!--박스리스트-->
+                            </li>
+                        </ul>
+                        <!--오른쪽박스1번-->
+                        <!--오른쪽박스2번-->
+                        <ul class="con03_img">
+                            <li><a href="#"><img src="images/thu_04.png" alt=" 맞춤04"></a>
+                                <!--박스리스트-->
+                                <ul class="list">
+                                    <li class="list_tit">신나게 흔들UP</li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>I Love It (Feat. Charli XCX) (꽃보다 청춘 아프리카편 삽입곡</span></a></li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>Wish You Well</span></a></li>
+                                    <li><a href="#"><img src="images/ico_arrow.png" alt="화살표"> <span>All Stars (Feat. ALMA)</span></a></li>
+                                </ul>
+                                <!--박스리스트-->
+                            </li>
+                        </ul>
+                        <!--오른쪽박스2번-->
+                    </div>
+                    <!--추천DJ-->
+                </div>
+                <!--컨텐츠03(추천음악)-->
+                <!--광고배너-->
+                <div class="event_banner inner">
+                    <ul class="banner_box">
+                        <li><a href="#"><img src="images/banner02_img01.png" alt="이벤트1"></a></li>
+                        <li><a href="#"><img src="images/banner02_img02.png" alt="이벤트2"></a></li>
+                        <li><a href="#"><img src="images/banner02_img03.png" alt="이벤트3"></a></li>
+                        <li><a href="#"><img src="images/banner02_img04.png" alt="이벤트4"></a></li>
+                    </ul>
+                </div>
+                <!--광고배너-->
+                <!--컨텐츠04(뮤직비디오)-->
+                   <div class="main_con04 inner">
+                    <!--타이틀-->
+                        <div class="con_tit cf">
+                            <h1><img src="images/ico_05.png" alt="뮤직비디오"> <span>뮤직비디오</span>
+                               <!--전체,국내,해외-->
+                                <div class="tit_more">
+                                    <a href="#"><span>전체</span></a>
+                                    <a href="#"><span>국내</span></a>
+                                    <a href="#"><span>해외</span></a>
+                                </div>
+                               <!--전체,국내,해외-->
+                            </h1>
+                            <div class="con02_more"><a href="#"><img src="images/ico_more.png" alt="더보기"></a></div>
+                        </div>
+                    <!--타이틀-->
+                    <!--내용-->
+                    <ul class="video_list cf">
+                       <!--내용01-->
+                        <li><iframe width="237" height="130" src="https://www.youtube.com/embed/h0Rk0IXbyRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           <!--제목,가수-->
+                            <div class="tit_name">
+                                <a href="#">
+                                   <p class="tit">Apink &#40;에이핑크&#41;</p>
+                                   <p class="name">&#91;Teaser2&#93; &#40;Dumhdurum dddd</p>
+                                </a>
+                            </div>
+                           <!--제목,가수-->
+                        </li>
+                       <!--내용01-->
+                       <!--내용02-->
+                        <li><iframe width="237" height="130" src="https://www.youtube.com/embed/A6Fim2WIBz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           <!--제목,가수-->
+                            <div class="tit_name">
+                                <a href="#">
+                                   <p class="tit">Apink &#40;에이핑크&#41;</p>
+                                   <p class="name">&#91;Teaser1&#93; &#40;Dumhdurum dddd</p>
+                                </a>
+                            </div>
+                           <!--제목,가수-->
+                        </li>
+                       <!--내용02-->
+                       <!--내용03-->
+                        <li><iframe width="237" height="130" src="https://www.youtube.com/embed/YJInKpVsBQA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           <!--제목,가수-->
+                            <div class="tit_name">
+                                <a href="#">
+                                    <p class="tit">경서예지</p>
+                                    <p class="name">사실나는 &#40;Feat. 전건호&#41;</p>
+                                </a>
+                            </div>
+                           <!--제목,가수-->
+                        </li>
+                       <!--내용03-->
+                       <!--내용04-->
+                        <li><iframe width="237" height="130" src="https://www.youtube.com/embed/tHPm2Cy_pvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           <!--제목,가수-->
+                            <div class="tit_name">
+                                <a href="#">
+                                    <p class="tit">안병웅</p>
+                                    <p class="name">&#91;Teaser&#93; Drown &#40; Feat.</p>
+                                </a>
+                            </div>
+                           <!--제목,가수-->
+                        </li>
+                       <!--내용04-->
+                    </ul>
+                    <!--내용--> 
+                <!--컨텐츠04(뮤직비디오)-->
+                </div>
+            </div>
+            <!--컨테이너-->
+            <!--footer-->
+            <footer id="footer" class="inner">
+               <!--푸터탑-->
+                <div class="f_top">
+                   <!--공지사항-->
+                    <ul>
+                        <li><h4>공지사항</h4></li>
+                        <li><p><a href="#">&#91;안내&#93; 2019 어워즈 투표 관련 안내사항</a></p></li>
+                        <li><p class="more_btn"><a href="#"><img src="images/ico_more.png" alt="더보기버튼"></a></p></li>
+                   <!--공지사항-->
+                    </ul>
+                   <!--고객센터-->
+                    <ul>
+                        <li><h4>고객센터 <span>1577-7334</span></h4></li>
+                        <li><p><a href="#">FAQ바로가기</a></p></li>
+                    </ul>
+                   <!--고객센터-->
+                </div>
+               <!--푸터탑-->
+               <!--푸터바텀-->
+               <div class="f_bottom">
+                   <ul class="f_menu">
+                       <li><a href="#">회사소개</a></li>
+                       <li><a href="#">제휴문의</a></li>
+                       <li><a href="#">이용약관</a></li>
+                       <li><a href="#">개인정보처리방침</a></li>
+                       <li><a href="#">청소년 보호정책</a></li>
+                       <li><a href="#">이메일주소 무단수집거부</a></li>
+                       <li><a href="#">저작권 보호센터</a></li>
+                       <li><a href="#">음원 유통/배급 문의</a></li>
+                   </ul>
+                   <p>㈜소리바다 대표이사 손지현</p>
+                   <p>주소 : 서울특별시 강남구 언주로 617 4,5층</p>
+                   <p>고객센터 : webmaster@soribada.com / T. 1577-7336(유료)</p>
+                   <p>사업자 등록번호 : 505-81-15915 통신판매업 신고번호 : 제2013-서울강남-00718호 사업자정보확인</p>
+                   <p>호스팅 제공자 : ㈜소리바다</p>
+                   <p>Copyright &copy; soribada.Inc. All rights reserved.</p>
+                   <div class="icon">
+                   <a href="#"><img src="images/f_ico01.png" alt="푸터아이콘"></a>
+                   <a href="#"><img src="images/f_icon02.png" alt="푸터아이콘"></a>
+                   <a href="#"><img src="images/f_icon03.png" alt="푸터아이콘"></a>
+                   <a href="#"><img src="images/f_icon04.png" alt="푸터아이콘"></a>
+                   <a href="#"><img src="images/f_icon05.png" alt="푸터아이콘"></a>
+                   </div>
+               </div>
+               <!--푸터바텀-->
+            </footer>
+            <!--footer-->
+        </div>
+    <!--전체끝-->  
+    </body>
+</html>    
