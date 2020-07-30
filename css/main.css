@@ -225,7 +225,6 @@
     width:260px;
     height:40px;
     line-height:40px;
-    background:rgba(0,0,0,0.3);    
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -233,6 +232,13 @@
     color:#fff;
     font-family: 'GmarketSansBold';
     transition:all 0.5s;
+}
+
+.h_album01 p span{    
+    background:rgba(0,0,0,0.3);
+    width:100%;
+    height:100%;
+    display:block;
 }
 .h_album01 .on span{
     display:none;
@@ -325,7 +331,6 @@
     width:260px;
     height:40px;
     line-height:40px;
-    background:rgba(0,0,0,0.3);    
     text-align: center;
     position: absolute;
     bottom:5px;
@@ -333,6 +338,12 @@
     color:#fff;
     font-family: 'GmarketSansBold';
     transition:all 0.5s;
+}
+.n_album p span{
+    display: block;
+    width:100%;
+    height:100%;    
+    background:rgba(0,0,0,0.3);    
 }
 
 .n_album .on span{
@@ -379,7 +390,7 @@
 }
 .main_con03 .tit p{}
 .main_con03 .tit span{
-    font-size:14px;
+    font-size:15px;
     font-family: 'GmarketSansLight';
 }
 .main_con03 .con03_img{
@@ -424,7 +435,7 @@
 /**광고배너**/
 
 .event_banner{
-    margin:100px 0;
+    margin:0 auto;
     text-align:center;    
     border:2px solid #ccc;
 }
@@ -447,11 +458,18 @@
 
 /**뮤직비디오**/
 
-.main_con04{}
-
-.video_list{
+.main_con04{
+    margin-top:50px;
     text-align:center;
-    padding:50px;
+    
+}
+
+.main_con04 .con_tit{
+    text-align:left;
+}
+
+.video_list{    
+    padding:50px 0;
     display: inline-block;
 }
 .video_list li{    
